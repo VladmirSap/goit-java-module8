@@ -1,2 +1,2 @@
-# goit-java-module6
-lessons from module 6
+# goit-java-module8
+lessons from module 8
