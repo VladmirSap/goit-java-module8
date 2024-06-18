@@ -7,4 +7,8 @@ public class Circle extends Shape {
         super(name);
         this.radius = radius;
     }
+
+    public Circle(String name) {
+        super(name);
+    }
 }

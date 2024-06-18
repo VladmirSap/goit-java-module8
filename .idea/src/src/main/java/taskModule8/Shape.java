@@ -4,20 +4,19 @@ public class Shape implements Drawable, Borderable {
 
     private String name;
 
-    public Shape(String name, double X, double Y) {
+    public Shape(String name) {
         this.name = name;
-
     }
-
+    @Override
     public double borderWidth() {
         return 0;
     }
 
-    public int getX() {
+    public double X() {
         return 0;
     }
 
-    public int getY() {
+    public double Y() {
         return 0;
     }
 
