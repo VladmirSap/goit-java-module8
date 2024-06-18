@@ -6,7 +6,7 @@ public class Shape implements Drawable, Borderable {
 
     public Shape(String name, double X, double Y) {
         this.name = name;
-        
+
     }
 
     public double borderWidth() {
