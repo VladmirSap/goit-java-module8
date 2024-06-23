@@ -1,5 +1,5 @@
 # goit-java-module8
-lessons from module 8
+tasks from module 8
 
 
 IntelliJ IDEA 2023.3.6 (Community Edition)
