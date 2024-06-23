@@ -1,26 +1,38 @@
 package taskModule8;
 
-public class Shape implements Drawable, Borderable {
+public abstract class Shape implements Drawable {
 
-    private String name;
+    private int x;
+    private int y;
 
-    public Shape(String name) {
+    String name = "shape";
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
         this.name = name;
     }
+
     @Override
-    public double borderWidth() {
+    public int getX() {
         return 0;
     }
 
-    public double X() {
+    @Override
+    public void setX(int x) {
+        this.x = x;
+    }
+
+
+    @Override
+    public int getY() {
         return 0;
     }
 
-    public double Y() {
-        return 0;
-    }
-
-    public void color() {
-
+    @Override
+    public void setY(int y) {
+        this.y = y;
     }
 }

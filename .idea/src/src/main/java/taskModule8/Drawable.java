@@ -1,7 +1,10 @@
 package taskModule8;
 
 public interface Drawable {
-    double X();
-    double Y();
-    void color();
+    int getX();
+    void setX(int x);
+    int getY();
+    void setY(int y);
+
+    void draw();
 }
