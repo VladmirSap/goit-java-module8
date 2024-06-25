@@ -2,8 +2,8 @@ package taskModule8;
 
 public abstract class Shape implements Drawable {
 
-    private int x;
-    private int y;
+    protected int x;
+    protected int y;
 
     String name = "shape";
 
@@ -17,7 +17,7 @@ public abstract class Shape implements Drawable {
 
     @Override
     public int getX() {
-        return 0;
+        return x;
     }
 
     @Override
@@ -28,7 +28,7 @@ public abstract class Shape implements Drawable {
 
     @Override
     public int getY() {
-        return 0;
+        return y;
     }
 
     @Override

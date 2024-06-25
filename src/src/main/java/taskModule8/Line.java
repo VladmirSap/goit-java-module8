@@ -1,27 +1,8 @@
 package taskModule8;
 
 public class Line extends Shape {
-    int x;
-    int y;
     int finishX;
     int finishY;
-
-
-
-    @Override
-    public String getName() {
-        return "line";
-    }
-
-    @Override
-    public int getX() {
-        return super.getX();
-    }
-
-    @Override
-    public int getY() {
-        return super.getY();
-    }
 
     @Override
     public void draw() {
